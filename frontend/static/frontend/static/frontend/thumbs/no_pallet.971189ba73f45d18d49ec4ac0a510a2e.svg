@@ -1,0 +1,17 @@
+var _path;
+
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgNoPallet = function SvgNoPallet(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 32,
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M6.125 5 6 5.844l-2 14V27h6v-2h12v2h6v-7.156l-2-14L25.875 5Zm1.75 2h2.063l-.876 12H6.156Zm4.063 0H15v12h-3.938ZM17 7h3.063l.875 12H17Zm5.063 0h2.062l1.719 12h-2.907ZM6 21h20v4h-2v-2H8v2H6Z"
+  })));
+};
+
+export default SvgNoPallet;
